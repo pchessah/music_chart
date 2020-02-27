@@ -1,10 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import NavigationBar from "./Navbar";
+import Routes from "./Routes";
 
 function App() {
   return (
     <div>
-      Music Chart
+      <NavigationBar />
+      <Routes />
     </div>
   );
 }
