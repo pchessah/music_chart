@@ -8,11 +8,11 @@ const Styles = styled.div`
     background-color: #000000;
   }
 
-  a,
+  
   .navbar-brand,
   .navbar-nav,
   .nav-link {
-    color: #FFFFF
+    color: #FFFFFF
 
     &:hover {
       color: white;
@@ -25,7 +25,7 @@ const NavigationBar = () => {
     <Styles>
       <Navbar expand="lg">
         <Navbar.Brand>
-          <Link  style = {{color:"white"}} className="page-links" to="/">
+          <Link  className="page-links" to="/">
             <h2> Afro Musiq </h2>
           </Link>
         </Navbar.Brand>
@@ -33,27 +33,27 @@ const NavigationBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item className="nav-item nav-link">
-              <Link  style = {{color:"white"}} className="page-links" to="/">
+              <Link  className="page-links" to="/">
                 Home
               </Link>
             </Nav.Item>
             <Nav.Item className="nav-item nav-link">
-              <Link   style = {{color:"white"}} className="page-links" to="/blog">
+              <Link   className="page-links" to="/blog">
                 Blog
               </Link>
             </Nav.Item>
             <Nav.Item className="nav-item nav-link">
-              <Link   style = {{color:"white"}}className="page-links" to="/chart">
+              <Link  className="page-links" to="/chart">
                 Chart
               </Link>
             </Nav.Item>
             <Nav.Item className="nav-item nav-link">
-              <Link   style = {{color:"white"}} className="page-links" to="/music">
+              <Link   className="page-links" to="/music">
                 Music
               </Link>
             </Nav.Item>
             <Nav.Item className="nav-item nav-link">
-              <Link   style = {{color:"white"}} className="page-links" to="/video">
+              <Link   className="page-links" to="/video">
                 Video
               </Link>
             </Nav.Item>
