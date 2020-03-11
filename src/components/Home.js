@@ -1,12 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div>
-      <header className="w3-container w3-center w3-padding-32">
+      <br />
+      <header
+        style={{ paddingTop: "250px" }}
+        className="w3-container w3-center w3-padding-32"
+      >
         <h1>
-          <b>Afriq Music </b>
+          <b> </b>
         </h1>
+        <br />
         <p>
           Welcome to the hub of <span className="w3-tag">Afro music</span>
         </p>
@@ -21,28 +27,19 @@ function Home() {
           />
           <div className="w3-container">
             <h3>
-              <b>TITLE HEADING</b>
+              <b>See Latest Music</b>
             </h3>
-            <h5>
-              Title description,
-              <span className="w3-opacity">April 7, 2014</span>
-            </h5>
           </div>
           <div className="w3-container">
-            <p>
-              Mauris neque quam, fermentum ut nisl vitae, convallis maximus
-              nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
-              magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
-              mi non congue ullam corper. Praesent tincidunt sed tellus ut
-              rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
-              congue gravida diam non fringilla.
-            </p>
+            <p></p>
             <div className="w3-row">
               <div className="w3-col m8 s12">
                 <p>
-                  <button className="w3-button w3-padding-large w3-white w3-border">
-                    <b>READ MORE »</b>
-                  </button>
+                  <Link to="/music">
+                    <button className="w3-button w3-padding-large w3-white w3-border">
+                      <b>More »</b>
+                    </button>
+                  </Link>
                 </p>
               </div>
               <div className="w3-col m4 w3-hide-small">
@@ -61,30 +58,21 @@ function Home() {
               alt="Norway"
               style={{ width: "100%" }}
             />
+            <br/>
             <div className="w3-container">
               <h3>
-                <b>BLOG ENTRY</b>
+                <b>Latest Videos</b>
               </h3>
-              <h5>
-                Title description,
-                <span className="w3-opacity">April 2, 2014</span>
-              </h5>
             </div>
             <div className="w3-container">
-              <p>
-                Mauris neque quam, fermentum ut nisl vitae, convallis maximus
-                nisl. Sed mattis nunc id lorem euismod placerat. Vivamus
-                porttitor magna enim, ac accumsan tortor cursus at. Phasellus
-                sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-                tellus ut rutrum. Sed vitae justo condimentum, porta lectus
-                vitae, ultricies congue gravida diam non fringilla.
-              </p>
               <div className="w3-row">
                 <div className="w3-col m8 s12">
                   <p>
-                    <button className="w3-button w3-padding-large w3-white w3-border">
-                      <b>READ MORE »</b>
-                    </button>
+                    <Link to="/videos">
+                      <button className="w3-button w3-padding-large w3-white w3-border">
+                        <b> MORE »</b>
+                      </button>
+                    </Link>
                   </p>
                 </div>
                 <div className="w3-col m4 w3-hide-small">
@@ -140,7 +128,7 @@ function Home() {
                   src="https://images.pexels.com/photos/3100960/pexels-photo-3100960.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
                   alt="avatar"
                   className="w3-left w3-margin-right"
-                  style={{ width: "50px" , height: "50px"}}
+                  style={{ width: "50px", height: "50px" }}
                 />
                 <span className="w3-large">Ipsum</span>
                 <br />
@@ -162,7 +150,7 @@ function Home() {
                   src="https://images.pexels.com/photos/2660262/pexels-photo-2660262.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
                   alt="avatar"
                   className="w3-left w3-margin-right"
-                  style={{ width: "50px" , height: "50px" }}
+                  style={{ width: "50px", height: "50px" }}
                 />
                 <span className="w3-large">Mingsum</span>
                 <br />
@@ -186,10 +174,10 @@ function Home() {
                   Kenya
                 </span>
                 <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                 Nigeria
+                  Nigeria
                 </span>
                 <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                 Lagos
+                  Lagos
                 </span>
               </p>
             </div>

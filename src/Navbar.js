@@ -26,7 +26,7 @@ const NavigationBar = () => {
       <Navbar expand="lg">
         <Navbar.Brand>
           <Link  className="page-links" to="/">
-            <h2> Afro Musiq </h2>
+            <h2> Santuri </h2>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
